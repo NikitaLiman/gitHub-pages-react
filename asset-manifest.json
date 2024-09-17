@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gitHub-pages-react/static/css/main.2d0c3b97.css",
-    "main.js": "/gitHub-pages-react/static/js/main.f64810cf.js",
+    "main.js": "/gitHub-pages-react/static/js/main.274ffe61.js",
     "static/media/Remove-bg.ai_1725909721842.png": "/gitHub-pages-react/static/media/Remove-bg.ai_1725909721842.fa2e6c6a3e0e95610906.png",
     "static/media/blade.png": "/gitHub-pages-react/static/media/blade.388235f190bee1c68d1c.png",
     "static/media/Remove-bg.ai_1725380721350.png": "/gitHub-pages-react/static/media/Remove-bg.ai_1725380721350.a60a7f11500ce36a1628.png",
@@ -14,10 +14,10 @@
     "static/media/facebook.png": "/gitHub-pages-react/static/media/facebook.bfd1cfff9f9521198b26.png",
     "index.html": "/gitHub-pages-react/index.html",
     "main.2d0c3b97.css.map": "/gitHub-pages-react/static/css/main.2d0c3b97.css.map",
-    "main.f64810cf.js.map": "/gitHub-pages-react/static/js/main.f64810cf.js.map"
+    "main.274ffe61.js.map": "/gitHub-pages-react/static/js/main.274ffe61.js.map"
   },
   "entrypoints": [
     "static/css/main.2d0c3b97.css",
-    "static/js/main.f64810cf.js"
+    "static/js/main.274ffe61.js"
   ]
 }
