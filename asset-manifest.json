@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gitHub-pages-react/static/css/main.b4a374ed.css",
-    "main.js": "/gitHub-pages-react/static/js/main.d0481dc6.js",
-    "static/media/Remove-bg.ai_1725909721842.png": "/gitHub-pages-react/static/media/Remove-bg.ai_1725909721842.fa2e6c6a3e0e95610906.png",
-    "static/media/blade.png": "/gitHub-pages-react/static/media/blade.388235f190bee1c68d1c.png",
-    "static/media/Remove-bg.ai_1725380721350.png": "/gitHub-pages-react/static/media/Remove-bg.ai_1725380721350.a60a7f11500ce36a1628.png",
-    "static/media/pl-odyssey-neo-g9-g95na-ls49ag950nuxen-530464538.avif": "/gitHub-pages-react/static/media/pl-odyssey-neo-g9-g95na-ls49ag950nuxen-530464538.292fd8553b460895e491.avif",
-    "static/media/instagram.png": "/gitHub-pages-react/static/media/instagram.ac32ec0a111aeba03298.png",
-    "static/media/telegram.png": "/gitHub-pages-react/static/media/telegram.6d4fb402a1836d62584b.png",
-    "static/media/heart.png": "/gitHub-pages-react/static/media/heart.846b79fcbc6949df2ceb.png",
-    "static/media/linkedin.png": "/gitHub-pages-react/static/media/linkedin.793a76008e86eb4e8160.png",
-    "static/media/search.png": "/gitHub-pages-react/static/media/search.b227f5e560f3ae38e7e5.png",
-    "static/media/facebook.png": "/gitHub-pages-react/static/media/facebook.bfd1cfff9f9521198b26.png",
-    "index.html": "/gitHub-pages-react/index.html",
-    "main.b4a374ed.css.map": "/gitHub-pages-react/static/css/main.b4a374ed.css.map",
-    "main.d0481dc6.js.map": "/gitHub-pages-react/static/js/main.d0481dc6.js.map"
+    "main.css": "/static/css/main.b4a374ed.css",
+    "main.js": "/static/js/main.de70df5b.js",
+    "static/media/Remove-bg.ai_1725909721842.png": "/static/media/Remove-bg.ai_1725909721842.fa2e6c6a3e0e95610906.png",
+    "static/media/blade.png": "/static/media/blade.388235f190bee1c68d1c.png",
+    "static/media/Remove-bg.ai_1725380721350.png": "/static/media/Remove-bg.ai_1725380721350.a60a7f11500ce36a1628.png",
+    "static/media/pl-odyssey-neo-g9-g95na-ls49ag950nuxen-530464538.avif": "/static/media/pl-odyssey-neo-g9-g95na-ls49ag950nuxen-530464538.292fd8553b460895e491.avif",
+    "static/media/instagram.png": "/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/telegram.png": "/static/media/telegram.6d4fb402a1836d62584b.png",
+    "static/media/heart.png": "/static/media/heart.846b79fcbc6949df2ceb.png",
+    "static/media/linkedin.png": "/static/media/linkedin.793a76008e86eb4e8160.png",
+    "static/media/search.png": "/static/media/search.b227f5e560f3ae38e7e5.png",
+    "static/media/facebook.png": "/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "index.html": "/index.html",
+    "main.b4a374ed.css.map": "/static/css/main.b4a374ed.css.map",
+    "main.de70df5b.js.map": "/static/js/main.de70df5b.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a374ed.css",
-    "static/js/main.d0481dc6.js"
+    "static/js/main.de70df5b.js"
   ]
 }
