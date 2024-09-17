@@ -1,0 +1,92 @@
+.container {
+  max-width: 100%;
+  height: 35px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+
+  .searchImg {
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+  }
+  .clearIcon {
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  &:hover .clearIcon {
+    opacity: 0.5; // Отображение иконки при наведении
+    visibility: visible;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+}
+.container:hover input {
+  width: 200px;
+  padding-left: 15px;
+}
+
+.container input {
+  width: 0px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.7s;
+  background-color: transparent;
+}
+@media (max-width: 680px) {
+  .container {
+    max-width: 100%;
+    height: 35px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+
+    .searchImg {
+      width: 25px;
+      height: 25px;
+      opacity: 0.5;
+    }
+    .clearIcon {
+      width: 25px;
+      height: 25px;
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+    }
+
+    &:hover .clearIcon {
+      opacity: 0.5; // Отображение иконки при наведении
+      visibility: visible;
+      display: block;
+      position: absolute;
+      left: 0;
+    }
+  }
+  .container:hover input {
+    width: 100px;
+    padding-left: 15px;
+  }
+
+  .container input {
+    width: 0px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.7s;
+    background-color: transparent;
+  }
+}

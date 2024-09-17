@@ -1,0 +1,100 @@
+.title {
+  color: white;
+  font-size: 34px;
+}
+.containerBefore {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  padding: 15px;
+  .containerInv {
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1835px) {
+  .containerBefore {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    padding: 15px;
+    .containerInv {
+      width: 100%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      justify-items: center;
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .containerBefore {
+    width: 840px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    padding: 15px;
+    .containerInv {
+      width: 100%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-items: center;
+    }
+  }
+}
+@media (max-width: 840px) {
+  .containerBefore {
+    width: 680px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    padding: 15px;
+    .containerInv {
+      width: 100%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      justify-items: center;
+    }
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 540px;
+  }
+}
+@media (max-width: 680px) {
+  .containerBefore {
+    width: 480px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    padding: 15px;
+    .containerInv {
+      width: 100%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      justify-items: center;
+    }
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 480px;
+  }
+}

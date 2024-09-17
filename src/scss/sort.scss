@@ -1,0 +1,42 @@
+.containerSort {
+  position: relative;
+  margin-right: 5px;
+  .sort {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    margin-top: 15px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    width: 98.2px;
+    text-align: end;
+  }
+  .sort__label {
+    display: flex;
+    p {
+      color: white;
+      margin-right: 5px;
+    }
+    span {
+      color: white;
+    }
+  }
+  .content__sort {
+    ul {
+      li {
+        color: #e0e0e0;
+        font-weight: 500;
+      }
+      li.active {
+        background-color: gray;
+      }
+      li:hover {
+        background-color: darkgray;
+      }
+      li.active:hover {
+        background-color: gray;
+      }
+    }
+  }
+}

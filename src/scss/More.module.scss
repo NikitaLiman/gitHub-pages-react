@@ -1,0 +1,381 @@
+.container {
+  border-radius: 20px;
+  background-color: white;
+  max-width: 100%;
+  width: 1700px;
+  min-height: 50vh;
+  .content {
+    .box {
+      min-height: 50vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .modelblock {
+        padding: 30px;
+        border-radius: 20px;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        transition: background-color 0.4s ease, color 0.4s ease;
+        .cont {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button img {
+            background-color: white;
+            border-radius: 20px;
+            padding: 5px;
+            width: 25px;
+            height: 100%;
+            transition: background-color 0.3s ease;
+          }
+          button img:hover {
+            background-color: gray;
+            transition: 0.3s ease;
+          }
+          button {
+            color: white;
+            margin-right: 10px;
+          }
+          button:active {
+            scale: 0.95;
+          }
+          .heartbtn:active {
+            scale: 0.95;
+          }
+        }
+        .titleblock {
+          h1 {
+            font-size: 20px;
+            color: white;
+          }
+        }
+        p {
+          max-width: 500px;
+          color: rgba(245, 245, 245, 0.587);
+        }
+      }
+      .modelblock:hover {
+        transition: 0.4s ease;
+        background-color: rgb(100, 96, 96);
+        p {
+          max-width: 500px;
+          color: white;
+        }
+      }
+      .imgBlock img {
+        width: 400px;
+      }
+    }
+  }
+}
+@media (max-width: 1835px) {
+  .container {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 100%;
+    width: 1200px;
+    min-height: 40vh;
+    .content {
+      .box {
+        min-height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .modelblock {
+          padding: 30px;
+          border-radius: 20px;
+          background-color: gray;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          transition: background-color 0.4s ease, color 0.4s ease;
+          .cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button img {
+              background-color: white;
+              border-radius: 20px;
+              padding: 5px;
+              width: 25px;
+              height: 100%;
+              transition: background-color 0.3s ease;
+            }
+            button img:hover {
+              background-color: gray;
+              transition: 0.3s ease;
+            }
+            button {
+              color: white;
+              margin-right: 10px;
+            }
+            button:active {
+              scale: 0.95;
+            }
+            .heartbtn:active {
+              scale: 0.95;
+            }
+          }
+          .titleblock {
+            h1 {
+              font-size: 20px;
+              color: white;
+            }
+          }
+          p {
+            max-width: 500px;
+            color: rgba(245, 245, 245, 0.587);
+          }
+        }
+        .modelblock:hover {
+          transition: 0.4s ease;
+          background-color: rgb(100, 96, 96);
+          p {
+            max-width: 500px;
+            color: white;
+          }
+        }
+        .imgBlock img {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1360px) {
+  .container {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 100%;
+    width: 1100px;
+    min-height: 30vh;
+    .content {
+      .box {
+        min-height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .modelblock {
+          padding: 30px;
+          border-radius: 20px;
+          background-color: gray;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          transition: background-color 0.4s ease, color 0.4s ease;
+          .cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button img {
+              background-color: white;
+              border-radius: 20px;
+              padding: 5px;
+              width: 25px;
+              height: 100%;
+              transition: background-color 0.3s ease;
+            }
+            button img:hover {
+              background-color: gray;
+              transition: 0.3s ease;
+            }
+            button {
+              color: white;
+              margin-right: 10px;
+            }
+            button:active {
+              scale: 0.95;
+            }
+            .heartbtn:active {
+              scale: 0.95;
+            }
+          }
+          .titleblock {
+            h1 {
+              font-size: 20px;
+              color: white;
+            }
+          }
+          p {
+            max-width: 500px;
+            color: rgba(245, 245, 245, 0.587);
+          }
+        }
+        .modelblock:hover {
+          transition: 0.4s ease;
+          background-color: rgb(100, 96, 96);
+          p {
+            max-width: 500px;
+            color: white;
+          }
+        }
+        .imgBlock img {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .container {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 100%;
+    width: 1000px;
+    min-height: 30vh;
+    .content {
+      .box {
+        min-height: 30vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 60px;
+        .modelblock {
+          padding: 30px;
+          border-radius: 20px;
+          background-color: gray;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          transition: background-color 0.4s ease, color 0.4s ease;
+          .cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button img {
+              background-color: white;
+              border-radius: 20px;
+              padding: 5px;
+              width: 25px;
+              height: 100%;
+              transition: background-color 0.3s ease;
+            }
+            button img:hover {
+              background-color: gray;
+              transition: 0.3s ease;
+            }
+            button {
+              color: white;
+              margin-right: 10px;
+            }
+            button:active {
+              scale: 0.95;
+            }
+            .heartbtn:active {
+              scale: 0.95;
+            }
+          }
+          .titleblock {
+            h1 {
+              font-size: 18px;
+              color: white;
+            }
+          }
+          p {
+            max-width: 500px;
+            color: rgba(245, 245, 245, 0.587);
+            font-size: 15px;
+          }
+        }
+        .modelblock:hover {
+          transition: 0.4s ease;
+          background-color: rgb(100, 96, 96);
+          p {
+            max-width: 500px;
+            color: white;
+          }
+        }
+        .imgBlock img {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1020px) {
+  .container {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px;
+    min-height: 30vh;
+    margin: 0 auto;
+    .content {
+      .box {
+        min-height: 30vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        gap: 60px;
+        .modelblock {
+          padding: 30px;
+          border-radius: 20px;
+          background-color: gray;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          transition: background-color 0.4s ease, color 0.4s ease;
+          .cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button img {
+              background-color: white;
+              border-radius: 20px;
+              padding: 5px;
+              width: 25px;
+              height: 100%;
+              transition: background-color 0.3s ease;
+            }
+            button img:hover {
+              background-color: gray;
+              transition: 0.3s ease;
+            }
+            button {
+              color: white;
+              margin-right: 10px;
+            }
+            button:active {
+              scale: 0.95;
+            }
+            .heartbtn:active {
+              scale: 0.95;
+            }
+          }
+          .titleblock {
+            h1 {
+              font-size: 18px;
+              color: white;
+            }
+          }
+          p {
+            max-width: 500px;
+            color: rgba(245, 245, 245, 0.587);
+            font-size: 15px;
+          }
+        }
+        .modelblock:hover {
+          transition: 0.4s ease;
+          background-color: rgb(100, 96, 96);
+          p {
+            max-width: 500px;
+            color: white;
+          }
+        }
+        .imgBlock img {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 840px) {
+}
+@media (max-width: 680px) {
+}

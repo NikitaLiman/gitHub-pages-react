@@ -1,0 +1,275 @@
+.containerSide {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  padding: 15px;
+  .HelpInstructions {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.796);
+    }
+    h3 {
+      font-size: 15px;
+      color: white;
+      text-decoration: underline;
+    }
+  }
+  .content {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 500px;
+
+    h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    ul {
+      display: flex;
+      align-items: flex-start;
+      justify-content: start;
+      flex-direction: column;
+      li {
+        padding: 5px 0;
+        background-color: transparent;
+        color: #e0e0e075;
+        text-align: center;
+        font-size: 14px;
+      }
+      li.active {
+        color: rgba(224, 224, 224, 0.775);
+        font-size: 14px;
+      }
+      li:hover {
+        color: #ff6b6b;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 1360px) {
+  .containerSide {
+    max-width: 1140px;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 15px;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 70px;
+
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        li {
+          padding: 5px 0;
+          background-color: transparent;
+          color: #e0e0e075;
+          text-align: center;
+          font-size: 14px;
+        }
+        li.active {
+          color: rgba(224, 224, 224, 0.775);
+          font-size: 14px;
+        }
+        li:hover {
+          color: #ff6b6b;
+          transition: 0.2s ease-in;
+          cursor: pointer;
+        }
+      }
+    }
+    .HelpInstructions {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.796);
+      }
+      h3 {
+        font-size: 15px;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .containerSide {
+    max-width: 840px;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 15px;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 70px;
+
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        li {
+          padding: 5px 0;
+          background-color: transparent;
+          color: #e0e0e075;
+          text-align: center;
+          font-size: 14px;
+        }
+        li.active {
+          color: rgba(224, 224, 224, 0.775);
+          font-size: 14px;
+        }
+        li:hover {
+          color: #ff6b6b;
+          transition: 0.2s ease-in;
+          cursor: pointer;
+        }
+      }
+    }
+    .HelpInstructions {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.796);
+      }
+      h3 {
+        font-size: 15px;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 840px) {
+  .containerSide {
+    max-width: 680px;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 15px;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 70px;
+
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        li {
+          padding: 5px 0;
+          background-color: transparent;
+          color: #e0e0e075;
+          text-align: center;
+          font-size: 12px;
+        }
+        li.active {
+          color: rgba(224, 224, 224, 0.775);
+          font-size: 12px;
+        }
+        li:hover {
+          color: #ff6b6b;
+          transition: 0.2s ease-in;
+          cursor: pointer;
+        }
+      }
+    }
+    .HelpInstructions {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.796);
+      }
+      h3 {
+        font-size: 15px;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media (max-width: 680px) {
+  .containerSide {
+    max-width: 480px;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 15px;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 70px;
+
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        li {
+          padding: 5px 0;
+          background-color: transparent;
+          color: #e0e0e075;
+          text-align: center;
+          font-size: 12px;
+        }
+        li.active {
+          color: rgba(224, 224, 224, 0.775);
+          font-size: 12px;
+        }
+        li:hover {
+          color: #ff6b6b;
+          transition: 0.2s ease-in;
+          cursor: pointer;
+        }
+      }
+    }
+    .HelpInstructions {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.796);
+      }
+      h3 {
+        font-size: 15px;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}

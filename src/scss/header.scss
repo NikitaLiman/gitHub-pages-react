@@ -1,0 +1,165 @@
+.contHeader {
+  width: 100%;
+  background-color: #1f1f1f;
+  position: fixed;
+  top: -1px;
+  left: 0;
+  z-index: 10;
+
+  .container__contHeader {
+    max-width: 1830px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      img {
+        width: 80px;
+        height: 100%;
+      }
+    }
+    .bagXFav {
+      display: flex;
+      gap: 20px;
+      .blockBox:hover {
+        background-color: gray;
+        transition: 0.3s ease;
+      }
+      .blockBox1:active {
+        scale: 0.95;
+      }
+      .blockBox:active {
+        scale: 0.95;
+      }
+      .blockBox1 {
+        position: relative;
+        width: 60px;
+        height: 100%;
+
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0;
+        transition: background-color 0.3s ease;
+      }
+      .blockBox {
+        position: relative;
+        width: 60px;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0;
+        .container__Cart {
+          pointer-events: none;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background-color: gray;
+          border-radius: 25px;
+          top: 0;
+          right: 0;
+          margin-right: -5px;
+          margin-top: -5px;
+        }
+      }
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .MiniCategories {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      gap: 60px;
+    }
+  }
+}
+
+@media (max-width: 1835px) {
+  .contHeader {
+    width: 100%;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    z-index: 10;
+
+    .container__contHeader {
+      padding: 0 10px;
+      max-width: 1140px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .contHeader {
+    width: 100%;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    z-index: 10;
+
+    .container__contHeader {
+      padding: 0 10px;
+      max-width: 840px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+@media (max-width: 840px) {
+  .contHeader {
+    width: 100%;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    z-index: 10;
+
+    .container__contHeader {
+      padding: 0 10px;
+      max-width: 680px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+@media (max-width: 680px) {
+  .contHeader {
+    width: 100%;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    z-index: 10;
+
+    .container__contHeader {
+      padding: 0 10px;
+      max-width: 480px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .MiniCategories {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+  }
+}

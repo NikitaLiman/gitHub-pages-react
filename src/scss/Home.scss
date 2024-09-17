@@ -1,0 +1,21 @@
+.SideBar {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 1835px) {
+  .SideBar {
+    display: flex;
+    gap: 30px;
+    max-width: 1430px;
+  }
+  .containerInv {
+    max-width: 1430px;
+  }
+}
+@media (max-width: 1360px) {
+  .SideBar {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
